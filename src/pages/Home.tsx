@@ -45,7 +45,7 @@ export function Home() {
           const usUrl = "https://us." + nonProtocolOrigin;
           const jpUrl = "https://jp." + nonProtocolOrigin;
 
-          console.log(usUrl, jpUrl)
+          console.log(usUrl, jpUrl);
 
           const [usTime, jpTime] = await Promise.all([
             ping(usUrl),
@@ -107,13 +107,8 @@ export function Home() {
       />
       <div className="flex h-full flex-col items-center justify-center">
         <div className="font-inter absolute bottom-0 left-0 p-4 text-sm italic text-input-text">
-          Nebula &copy; Nebula Services {new Date().getUTCFullYear()}
+          Rift &copy; Developer Tech {new Date().getUTCFullYear()} based on Nebula
         </div>
-        <a href="https://github.com/NebulaServices/Nebula">
-          <div className="font-inter absolute bottom-0 right-0 p-4 text-sm text-input-text">
-            GitHub
-          </div>
-        </a>
         <form
           onSubmit={handleSubmit}
           className="flex h-full w-full flex-col items-center justify-center"

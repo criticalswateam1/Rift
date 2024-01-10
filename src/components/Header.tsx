@@ -23,11 +23,10 @@ export function Header() {
           <img
             src="/logo.png"
             className="h-16 w-16 transition-all duration-1000 hover:rotate-[360deg]"
-            alt="Nebula Logo"
+            alt="Rift Logo"
           ></img>
           <h1 className="font-roboto invisible whitespace-nowrap text-2xl font-bold text-navbar-text-color sm:visible sm:text-4xl">
-            {" "}
-            {t("header.title")}{" "}
+            Rift
           </h1>
         </div>
       </Link>
@@ -66,11 +65,6 @@ export function Header() {
                   href="/settings"
                   Icon={RxMixerVertical}
                   translationKey="header.settings"
-                />
-                <HeaderButton
-                  href="/discord"
-                  Icon={RiLinksFill}
-                  translationKey="header.discord"
                 />
               </div>
             </div>

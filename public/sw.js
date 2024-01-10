@@ -7,7 +7,7 @@ importScripts("/dynamic/dynamic.worker.js");
 importScripts("/localforage/localforage.min.js");
 localforage.config({
   driver: localforage.INDEXEDDB,
-  name: "Nebula",
+  name: "Rift",
   version: 1.0,
   storeName: "nebula_config",
   description: "Nebula Config for things reliant on IndexedDB"
@@ -45,7 +45,7 @@ self.addEventListener("fetch", (event) => {
       (async function () {
         try {
           await dynPromise;
-        } catch (error) {}
+        } catch (error) { }
         if (await self.dynamic.route(event)) {
           return await self.dynamic.fetch(event);
         }
@@ -59,7 +59,7 @@ self.addEventListener("fetch", (event) => {
       (async function () {
         try {
           await uvPromise;
-        } catch (error) {}
+        } catch (error) { }
         return await self.uv.fetch(event);
       })()
     );

@@ -1,19 +1,18 @@
 {
   "header": {
-    "title": "nebula.",
+    "title": "Rift.",
     "games": "Games",
-    "settings": "Settings",
-    "discord": "Want more links?"
+    "settings": "Settings"
   },
   "404": {
-    "text": "This Nebula Service has been disabled.",
+    "text": "This Rift Service has been disabled.",
     "return": "Back to home"
   },
   "home": {
     "placeholder": "Search the web freely"
   },
   "discord": {
-    "title": "Nebula's Discord Server",
+    "title": "Rift's Discord Server",
     "sub": "Would you like to open this via proxy?",
     "button1": "Open Normally",
     "button2": "Use Proxy"
@@ -62,10 +61,10 @@
     }
   },
   "titles": {
-    "home": "Nebula",
-    "settings": "Nebula - Settings",
-    "discord": "Nebula - Discord",
-    "404": "Nebula - 404"
+    "home": "Rift",
+    "settings": "Rift - Settings",
+    "discord": "Rift - Discord",
+    "404": "Rift - 404"
   },
   "comingsoon": "Coming soon!",
   "themes": {
